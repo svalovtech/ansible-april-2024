@@ -8,4 +8,5 @@
       remote_src: yes
 
   - name: create folder
+    ansible.builtin.shell:
     shell: touch hello    
