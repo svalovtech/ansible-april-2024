@@ -1,0 +1,7 @@
+- hosts: all
+  vars:
+    name: kaizen
+    age: 20
+  become: yes
+  tasks:
+  - debug: msg="Hello {{ name }}, you are {{ age }}"
