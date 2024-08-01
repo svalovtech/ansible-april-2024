@@ -1,0 +1,11 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: Copy file with owner and permissions
+    ansible.builtin.copy:
+      src: ./kaizen
+      dest: ./tmp
+      remote_src: yes
+
+  - name: create folder
+    shell: touch hello    
