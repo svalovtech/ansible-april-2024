@@ -1,0 +1,4 @@
+- name: Copy file
+  ansible.builtin.template:
+    src: kaizen/templates/hello.txt.j2
+    dest: "{{ dest }}/hello.txt"
