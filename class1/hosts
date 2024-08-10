@@ -4,4 +4,4 @@ vm2 ansible_host=3.15.142.218
 vm3 ansible_host=18.217.60.49
 [qa]
 vm4 ansible_host=18.224.33.235
-vm5 ansible_host=3.21.44.202
+vm5 ansible_host=3.21.44.202 
